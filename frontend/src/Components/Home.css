@@ -1,0 +1,85 @@
+/* Reset default padding and margins */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(226, 238, 238);
+}
+
+/* Styling for the title section */
+.title {
+    height: 60px;
+    width: 100%;
+    padding: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    background: linear-gradient(135deg, #4b7f9f, #00b3b3);
+    color: white;
+    text-align: center;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+
+/* Styling for buttons */
+.ForcastBtn {
+    height: 50px;
+    width: 100%;
+    padding: 8px;
+    margin-right: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #00b3b3;
+    color: rgb(7, 7, 7);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for the button */
+.ForcastBtn:hover {
+    background-color: #007f7f;
+    transform: translateY(-3px);
+}
+
+/* Styling for the prediction container */
+.predict {
+    border-radius: 8px;
+    border: 2px solid #007f7f;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.predict:hover {
+    transform: scale(1.03);
+}
+
+/* Styling for the select dropdown */
+.select {
+    height: 45px;
+    padding: 6px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid #007f7f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #f0f8ff;
+    color: #007f7f;
+    transition: border-color 0.3s ease;
+}
+
+/* Hover effect for the select dropdown */
+.select:hover {
+    border-color: #00b3b3;
+}
